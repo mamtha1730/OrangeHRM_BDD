@@ -1,0 +1,57 @@
+19:59:06.103 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+19:59:13.264 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+19:59:13.729 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+19:59:13.793 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+19:59:20.146 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+19:59:20.594 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+19:59:20.666 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:07:45.011 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:07:45.142 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:07:45.219 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:07:45.272 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate success login
+20:07:47.129 [main] INFO  Factory.BaseClass - Succefully logged in!!
+20:07:52.763 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:07:53.207 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:07:53.295 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:07:54.560 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate unsuccessful login
+20:07:55.001 [main] INFO  Factory.BaseClass - Unsuccessful login -Try again
+20:08:00.886 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:08:01.324 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:08:01.416 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:08:01.471 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate unsuccessful login
+20:08:02.892 [main] INFO  Factory.BaseClass - Unsuccessful login -Try again
+20:08:09.255 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:08:09.739 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:08:09.820 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:08:09.881 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate unsuccessful login
+20:08:11.632 [main] INFO  Factory.BaseClass - Unsuccessful login -Try again
+20:08:17.827 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:08:18.254 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:08:18.349 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:08:24.506 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:08:24.969 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:08:25.039 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:08:31.125 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:08:31.573 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:08:31.647 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:17:29.027 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:17:29.190 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:17:29.272 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:17:29.330 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate success login
+20:17:31.310 [main] INFO  Factory.BaseClass - Succefully logged in!!
+20:17:37.345 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:17:37.889 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:17:37.974 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:17:39.456 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate unsuccessful login
+20:17:39.937 [main] INFO  Factory.BaseClass - Unsuccessful login -Try again
+20:17:46.147 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:17:46.603 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:17:46.681 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:17:46.738 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate unsuccessful login
+20:17:48.418 [main] INFO  Factory.BaseClass - Unsuccessful login -Try again
+20:17:54.532 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
+20:17:55.006 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters password.
+20:17:55.085 [main] INFO  Factory.BaseClass - User clicks login button in  HRMLoginpage
+20:17:55.148 [main] INFO  Factory.BaseClass - User in HRMLoginpage to validate unsuccessful login
+20:17:56.585 [main] INFO  Factory.BaseClass - Unsuccessful login -Try again
+20:18:02.730 [main] INFO  Factory.BaseClass - User in HRMLoginpage and enters user name
