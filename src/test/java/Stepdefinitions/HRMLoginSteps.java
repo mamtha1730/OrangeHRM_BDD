@@ -1,9 +1,6 @@
 package Stepdefinitions;
 
-
-
-import static org.testng.Assert.assertEquals;
-
+import org.junit.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,7 +58,7 @@ public class HRMLoginSteps
 		BaseClass.getLogger().info("User in HRMLoginpage to validate success login");
 		lp= new HRMLoginpage(BaseClass.getDriver());
 		String msg=lp.verifyuser();
-		assertEquals("Dashboard",msg);
+		Assert.assertEquals("Dashboard",msg);
 		BaseClass.getLogger().info("Succefully logged in!!");
 	}
 	@Then("validate user is not logged in")
@@ -70,7 +67,7 @@ public class HRMLoginSteps
 		BaseClass.getLogger().info("User in HRMLoginpage to validate unsuccessful login");
 		lp= new HRMLoginpage(BaseClass.getDriver());
 		String msg2=lp.verifyinvaliduser();
-		assertEquals("Invalid credentials",msg2);
+		Assert.assertEquals("Invalid credentials",msg2);
 		BaseClass.getLogger().info("Unsuccessful login -Try again");
 	}
 
@@ -87,19 +84,19 @@ public class HRMLoginSteps
         {
           	user_Reqd_Txt= lp.getUserToolTipText();
           	System.out.println("UserName Required text: "+user_Reqd_Txt);
-          	assertEquals("Required",user_Reqd_Txt);
+          	Assert.assertEquals("Required",user_Reqd_Txt);
         }
         if(tooltip_pwd_text)
         {
         	pwd_Reqd_Txt= lp.getPwdToolTipText();
           	System.out.println("Password Required text: "+pwd_Reqd_Txt);
-        	assertEquals("Required",pwd_Reqd_Txt);
+          	Assert.assertEquals("Required",pwd_Reqd_Txt);
         }
         if ((tooltip_user_text) && (tooltip_pwd_text) )
         {
         	System.out.println("UserName Required text: "+user_Reqd_Txt);
         	System.out.println("Password Required text: "+pwd_Reqd_Txt);
-        	assertEquals("Required",user_Reqd_Txt,pwd_Reqd_Txt);
+        	Assert.assertEquals("Required",user_Reqd_Txt,pwd_Reqd_Txt);
         }
 	 sa.assertAll();
 	}
@@ -119,7 +116,7 @@ public class HRMLoginSteps
 	 lp= new HRMLoginpage(BaseClass.getDriver());
 		boolean bool_logo=lp.validatelogo();
 		System.out.println("bool message: "+bool_logo);
-		assertEquals(bool_logo,true);
+		Assert.assertEquals(bool_logo,true);
 	}
 	
 	@Given("user clicks forget password link")
@@ -134,7 +131,7 @@ public class HRMLoginSteps
 		lp= new HRMLoginpage(BaseClass.getDriver());
 		String txt_password_link=lp.verify_forget_pwd();
 		//System.out.println("Link -password-verify: "+txt_password_link);
-		assertEquals("Reset Password",txt_password_link);
+		Assert.assertEquals("Reset Password",txt_password_link);
 	}
 	@Given("user clicks hrm_url_link")
 	public void user_clicks_hrm_url_link() throws InterruptedException
@@ -152,7 +149,7 @@ public class HRMLoginSteps
 		Thread.sleep(2000);
 		
 		String text_lnk=lp.verify_link_url();
-		assertEquals("Peace of mind is just a few clicks away!",text_lnk);
+		Assert.assertEquals("Peace of mind is just a few clicks away!",text_lnk);
 	}
 
 
