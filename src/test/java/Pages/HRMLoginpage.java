@@ -131,7 +131,7 @@ public class HRMLoginpage extends Basepage
 				
 	
 		//did not work
-		//mywait.until(ExpectedConditions.elementSelectionStateToBe(logo_bool, getInputTxtPwd())
+		//mywait.until(ExpectedConditions.elementSelectionStateToBe(logo_bool, true)
 		
 	}
 	
