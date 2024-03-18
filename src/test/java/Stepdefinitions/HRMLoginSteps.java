@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.SoftAssertions;
-import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Factory.BaseClass;
@@ -18,7 +18,7 @@ import io.cucumber.java.en.When;
 
 public class HRMLoginSteps 
 {
-	public WebDriver driver;
+	//public WebDriver driver;
 	Logger logger;
 	HRMLoginpage lp;
 	String user_Reqd_Txt, pwd_Reqd_Txt;
