@@ -6,9 +6,6 @@ import java.util.List;
 
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.SoftAssertions;
-//import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import Factory.BaseClass;
 import Pages.HRMLoginpage;
 import io.cucumber.java.en.Given;
